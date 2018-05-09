@@ -62,6 +62,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %{_libdir}/qt5/qml/org/nemomobile/accounts/libnemoaccounts.so
+%{_libdir}/qt5/qml/org/nemomobile/accounts/plugins.qmltypes
 %{_libdir}/qt5/qml/org/nemomobile/accounts/qmldir
 # >> files
 # << files
