@@ -13,7 +13,7 @@ Version:    0.0.0
 Release:    1
 Group:      System/Libraries
 License:    BSD
-URL:        https://github.com/nemomobile/nemo-qml-plugin-accounts
+URL:        https://git.merproject.org/mer-core/nemo-qml-plugin-accounts
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  nemo-qml-plugin-accounts-qt5.yaml
 BuildRequires:  pkgconfig(Qt5Core)
@@ -62,6 +62,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %{_libdir}/qt5/qml/org/nemomobile/accounts/libnemoaccounts.so
+%{_libdir}/qt5/qml/org/nemomobile/accounts/plugins.qmltypes
 %{_libdir}/qt5/qml/org/nemomobile/accounts/qmldir
 # >> files
 # << files
